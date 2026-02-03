@@ -13,6 +13,10 @@ fi
 echo "Compiling static site..."
 bun run build
 
+# Clean and move to docs
+echo "Moving to ../docs..."
+rm -rf ../docs
+mv dist ../docs
+
 echo ""
-echo "Build complete! Static files are in ./dist/"
-echo "You can upload the contents of ./dist/ to any static hosting."
+echo "Build complete! Static files are in ../docs/"
