@@ -48,13 +48,6 @@ function App() {
       what: '1020 extrusion',
       size: computed.framewidth,
       pcs: 1,
-      notes: 'x backer (choose one)',
-    },
-    {
-      what: '2020 extrusion',
-      size: computed.framewidth,
-      pcs: 1,
-      notes: 'x backer alternative (choose one)',
     },
     {
       what: '2020 extrusion',
@@ -222,7 +215,6 @@ function App() {
                   <TableHead>Part</TableHead>
                   <TableHead>Size (mm)</TableHead>
                   <TableHead className="text-center">Pcs</TableHead>
-                  <TableHead>Notes</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -231,7 +223,6 @@ function App() {
                     <TableCell>{part.what}</TableCell>
                     <TableCell className="font-mono text-primary">{part.size}</TableCell>
                     <TableCell className="text-center">{part.pcs}</TableCell>
-                    <TableCell className="text-muted-foreground">{part.notes ?? ''}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
