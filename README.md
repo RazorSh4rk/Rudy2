@@ -1,5 +1,7 @@
 # Rudy 2
 
+![img](./docs/assets/CAD_pic.png)
+
 ### This is a scalable build - access the frame configurator here [link](https://www.ungineers.com/razor/rudy2/configurator)
 
 __IMPORTANT__ frame parts are not in this list, supply them from the configurator
